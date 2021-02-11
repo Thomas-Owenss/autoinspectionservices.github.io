@@ -1,8 +1,12 @@
 body {   
     color:black;
     text-align: center;
+<<<<<<< HEAD
     
 }
 nav {
     background-color: aliceblue;
+=======
+    background-color: black;
+>>>>>>> ada178ea2e7e1ffcbf267a96a97a5945324d7b1e
 }
