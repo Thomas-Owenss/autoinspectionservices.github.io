@@ -8,3 +8,11 @@ body {
 h1 {
     color:midnightblue;
 }
+
+nav {
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
