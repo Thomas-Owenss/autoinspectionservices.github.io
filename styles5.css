@@ -8,13 +8,24 @@
 }
 
 .flexmenuitem {
-    background-color: whitesmoke;
+    background-color: yellow;
     box-sizing: border-box;
     padding: 5px;
     margin: 5px;
-    width: 250px;
+    width: 1500px;
+    text-align: center;
 }
 
 body {
-    background-color: cadetblue;
+    background-color: purple;
+}
+
+p {
+    background-color: yellow;
+    color: deeppink
+}
+
+div {
+    background-color: yellow;
+    color: deeppink
 }
