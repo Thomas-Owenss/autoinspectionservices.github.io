@@ -1,6 +1,6 @@
  body {
   font-family: "Lato", sans-serif;
-    background-color: #d0d1ff;
+    background-color: darkslateblue;
 }
 
 .sidebar {
@@ -10,7 +10,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #d8bbff;
+  background-color: black;
   overflow-x: hidden;
   padding-top: 60px; 
   transition: 0.5s;
@@ -20,7 +20,7 @@
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: 0b3954;
+  color: darkgrey;
   display: block;
   transition: 0.3s;
 }
