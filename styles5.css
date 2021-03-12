@@ -3,7 +3,7 @@
 }
 
 .flexmenu {
-    width: 100%;
+    width: 10%;
     display: flex;
     list-style-type: none;
     flex-wrap: wrap;
@@ -12,7 +12,7 @@
 }
 
 .flexmenuitem {
-    background-color: yellow;
+    background-color: black;
     box-sizing: border-box;
     padding: 5px;
     margin: 5px;
@@ -21,15 +21,18 @@
 }
 
 body {
-    background-color: purple;
+    background-color: midnightblue;
 }
 
 p {
-    background-color: yellow;
-    color: deeppink
+    color: darkgrey;
 }
 
 div {
-    background-color: yellow;
+    background-color: black;
     color: deeppink
+}
+
+li {
+    float: right;
 }
