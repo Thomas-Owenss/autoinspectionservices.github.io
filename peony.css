@@ -62,3 +62,11 @@
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
 }
+
+.text {
+  transition: margin-left .5s;
+  padding: 20px;
+  height: 100px;
+  background-color: #191970;
+  font-size: 30px;
+}
