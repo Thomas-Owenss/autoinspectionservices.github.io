@@ -68,11 +68,14 @@
   padding: 20px;
   height: 100px;
   background-color: #191970;
-  font-size: 3  0px;
 }
 
 img {
     width: 512px;
     height: 340px;
     float: right;
+}
+p {
+    color: black;
+    font-size: 20px;
 }
