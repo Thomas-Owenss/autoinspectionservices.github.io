@@ -1,17 +1,41 @@
-    <html>
-<body>
-
+<html> 
+    <body>  
 <head>
-  <link href="styles5.css" type="text/css" rel="stylesheet">   
-</head>    
-    <ul class="flexmenu">
-        <li class="flexmenuitem">
-            <a href="dandelion.html">Return</a>
-        </li>
+    <link rel="stylesheet" 
+            href="peony.css" 
+            type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+</head>
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#x2190;</a>
+
+  <a href="dandelion.html">Home Page</a>
+
+  <a href="astrantia.html">How to get into it?</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰ Menu</button>
+  <h1>What games are included?</h1>
         
-    </ul>    
     
-        <p>Games included in eSports</p>
-    
+    <div id="text">
+  <p>Multiplayer competitive games are the normal genre for eSports, which ranges from FPS (First Person Shooters), to Veichle Racing. </p>
+    </div>
+    </div>
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+
 </body>
-</html>
+</html> 
