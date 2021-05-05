@@ -1,0 +1,41 @@
+<html> 
+    <body>  
+<head>
+    <link rel="stylesheet" 
+            href="peony.css" 
+            type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+</head>
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#x2190;</a>
+
+  <a href="dandelion.html">Home Page</a>
+
+    <a href="league.html">League of Legends</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰ Menu</button>
+  <h1>What games are included?</h1>
+        
+    
+    <div id="text">
+  <p>Multiplayer competitive games are the normal genre for eSports, which ranges from FPS (First Person Shooters), to Veichle Racing. As of today, there are 87 major individual tournaments across the globe which cover a range of different games. Some of the biggest games in eSports </p>
+    </div>
+    </div>
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+
+</body>
+</html> 
