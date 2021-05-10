@@ -77,9 +77,15 @@ img {
 }
 p {
     color: black;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .img2 {
 float: left;
+}
+
+.rlphoto {
+    height: 500px;
+    width: 350px;
+    float: right;
 }
