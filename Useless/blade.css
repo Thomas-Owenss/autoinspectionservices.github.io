@@ -66,3 +66,8 @@ section {
     50% { box-shadow: 0 0 16px #7EC855; }
     to {box-shadow: 0 0 10px #7EC855; }
 }
+
+.mypic {
+    width: 100%;
+    height:100%;
+}
