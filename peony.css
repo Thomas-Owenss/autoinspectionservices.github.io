@@ -1,6 +1,6 @@
  body {
-  font-family: "Lato", sans-serif;
-    background-color: darkslateblue;
+  font-family: "Raleway";
+    background-color: whitesmoke;
 }
 
 .sidebar {
@@ -10,7 +10,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: black;
+  background-color: dimgrey;
   overflow-x: hidden;
   padding-top: 60px; 
   transition: 0.5s;
@@ -40,7 +40,7 @@
 .openbtn {
   font-size: 20px;
   cursor: pointer;
-  background-color: #111;
+  background-color: dimgrey;
   color: white;
   padding: 10px 15px;
   border: none;
@@ -55,7 +55,7 @@
   transition: margin-left .5s;
   padding: 20px;
   height: 100px;
-    background-color: #191970;
+    background-color: dimgrey;
 }
 
 @media screen and (max-height: 450px) {
@@ -70,22 +70,7 @@
   background-color: #191970;
 }
 
-img {
-    width: 470px;
-    height: 300px;
-    float: right;
-}
 p {
     color: black;
     font-size: 20px;
-}
-
-.img2 {
-float: left;
-}
-
-.rlphoto {
-    height: 500px;
-    width: 350px;
-    float: right;
 }
